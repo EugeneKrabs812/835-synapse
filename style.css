@@ -40,7 +40,7 @@ nav {
 
 
 .hero {
-  height: 90hv;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +139,7 @@ h1, h2 {
 
 
 .hero {
-  height: 100hv;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,7 +231,6 @@ h1, h2 {
 }
 
 
-/* GLU TAMATE PAGE */
 
 .content {
   max-width: 900px;
@@ -255,4 +254,28 @@ h1, h2 {
 
 .content li {
   margin-bottom: 8px;
+}
+
+
+.cards {
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .card {
+    width: 90%;
+  }
 }
