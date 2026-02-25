@@ -184,8 +184,11 @@ h1, h2 {
 .cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
   margin: 60px 0;
 }
+
 
 .card {
   background: linear-gradient(145deg, #1a0000, #300000);
@@ -281,52 +284,3 @@ h1, h2 {
 }
 
 
-.neuro-section {
-  padding: 60px 10%;
-}
-
-.section-title {
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  font-weight: 600;
-}
-
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-}
-
-
-
-.neuro-card {
-  background: linear-gradient(
-    135deg,
-    #decdcc 0%,
-    #70322e 55%,
-    #2b0906 100%
-  );
-  padding: 25px;
-  border-radius: 16px;
-  cursor: pointer;
-  color: white;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.neuro-card h3 {
-  margin-bottom: 10px;
-}
-
-.neuro-card p {
-  font-size: 0.9rem;
-  opacity: 0.85;
-}
-
-.neuro-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-}
-
-.neuro-card {
-  backdrop-filter: blur(4px);
-}

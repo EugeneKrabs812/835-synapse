@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | 638-Synapse</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+  <section class="about-container">
+    <div class="about-text">
+      <h1>About 638-Synapse</h1>
+      <p>
+        638-Synapse adalah ruang eksplorasi tentang bagaimana pikiran bekerja.
+        Website ini membahas neuroscience dalam format yang terstruktur dan minimal.
+        Fokusnya bukan hanya informasi, tetapi pemahaman.
+      </p>
+      <p>
+        Synapse adalah titik koneksi. 638 adalah sistem dan strategi.
+        Di sini, keduanya bertemu.
+      </p>
+    </div>
+  </section>
+
+  <section class="creator-section">
+    <div class="creator-card" onclick="toggleContact()">
+      <h2>Kienanth Lopithalucky</h2>
+      <p>Interested in neuroscience, coding, finance & strategic thinking.</p>
+
+      <div class="contact-info" id="contactInfo">
+        <p>Email: <a href="mailto:youremail@gmail.com">shibulgogi@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+<script>
+function toggleContact() {
+  const contact = document.getElementById("contactInfo");
+  contact.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
