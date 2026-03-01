@@ -23,3 +23,4 @@ document.addEventListener("click", function(e) {
     emoji.remove();
   }, 2000); 
 });
+
